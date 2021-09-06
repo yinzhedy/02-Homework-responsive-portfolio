@@ -113,16 +113,6 @@ h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a {
     margin: 5%;
 }
 
-.menu:after {
-    background: #4b6cc1;
-    border-radius: 1000px;
-    content: "";
-    display: block;
-    height: 6px;
-    max-width: 30px;
-    width: 100%;
-}
-
 .menu a:hover,
 .aboutmetext a:hover,
 .footerlinks a:hover,
@@ -143,7 +133,7 @@ h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a {
     width: 305px;
     height: 355px;
     border-radius: 10px;
-    border:outset;
+    border:outset;8
 }
 /* iphone settings */
 @media only screen and (max-width: 768px) {
