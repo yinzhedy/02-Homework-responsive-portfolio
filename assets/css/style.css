@@ -120,13 +120,20 @@ h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a {
     color: lightcoral;
     cursor: pointer;
 }
-.project-titles a{
+.project-titles{
     font-size: 25px;
-    text-orientation: sideways;
     color: grey;
-    margin-left: 4%;
+    margin-left: 2%;
 }
+
+/* removed 
+    background-image: url("/assets/images/horiseon.jpg");
+    background-size: contain;
+from project1 */
 #project1 {
+    display: block;
+    background-image: url("/assets/images/horiseon.jpg");
+    background-size: contain;
     margin-left: 30px;
     width: 305px;
     height: 355px;
