@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 :root {
     --light-blue : #BEE9E8;
     --black: #080708;
@@ -175,14 +178,16 @@ h2 a {
 }
 
 /* iphone settings */
-@media only screen and (max-width: 768px) {
-    .footermenu, .footerlinks {
+@media only screen and (max-width: 800px) {
+   
+    body {
        display: inline-flex;
+       flex-wrap: wrap;
        flex-direction: column;
        column-count: 1;
-       margin: 20px;
+       margin: 10px;
    }
    .aboutmetext {
-       margin-right: 20px;
+       margin-right: 5%;
    }
 }
