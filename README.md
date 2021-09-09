@@ -2,8 +2,8 @@
 
 # <Homework-Responsive-Portfolio>
 ## Description
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-- My motivation for this project was to create a function porfolio web page. I included a navbar with links to scroll down to corresponding sections, as well as links to direct potential employers, or viewers, to my contact information, resume, and pages relating to my work. Key words within the "About Me" section also serve as quick links, while reading, to corresponding information/pages. My goal was to create a user interface that was pleasant, simple, and straightforward, while still ensuring all necessary information was present for further exploration and inspection. I ensured that my primary project example and section titles were larger in contrast to the rest of the page in order to facilitate effiecient navigation as well. 
+
+- My motivation for this project was to create a functional porfolio web page. I included a navbar with links to scroll down to corresponding sections, as well as direct links at the bottom of the page to direct potential employers, or viewers, to my contact information, resume, and pages relating to my work. Key words within the "About Me" section also serve as quick links, while reading, to corresponding information/pages. I wanted to create a user interface that was pleasant, simple, and straightforward, while still ensuring all necessary information was present for further exploration and inspection. I ensured that my primary project example and section titles were larger in contrast to the rest of the page in order to facilitate effiecient navigation as well. I also included a media query in my css to adjust the sizing of fonts, images, and margins when viewing on smaller (mobile) screens.
 
 ## Table of Contents (Optional)
 If your README is long, add a table of contents to make it easy for users to find what they need.
