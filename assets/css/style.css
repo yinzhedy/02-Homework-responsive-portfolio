@@ -80,12 +80,6 @@ a {
     list-style: none;
 }
 
-
-header {
-    background: linear-gradient(to right, transparent, var(--peach-beige));
-    width: 1000%;   
-}
-
 .menu {
     display: flex;
     flex-wrap: wrap;
