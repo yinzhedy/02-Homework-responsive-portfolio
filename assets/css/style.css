@@ -177,17 +177,42 @@ h2 a {
     margin-left: 15px;
 }
 
-/* iphone settings */
-@media only screen and (max-width: 800px) {
+/* phone settings */
+@media screen and (max-width: 800px) {
    
     body {
        display: inline-flex;
        flex-wrap: wrap;
        flex-direction: column;
        column-count: 1;
-       margin: 10px;
+       margin: 8px;
+       font-size: 26px;
    }
    .aboutmetext {
        margin-right: 5%;
    }
+
+   .menu-item {
+    font-weight: bold;
+    font-size: 26px;
+   }
+
+    .project1,
+    .project2,
+    .project3  {
+        margin-left: 18px;
+        width: 512px;
+        height: 284px;
+        border-radius: 8px;
+    }
+
+    .project2,
+    .project3 {
+
+        margin-left: 18px;
+        width: 244px;
+        height: 284px;
+        border-radius: 8px;
+     
+}
 }
