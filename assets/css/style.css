@@ -12,6 +12,7 @@ body {
     font-size: 20px;
     font-weight: 300;
     margin: 10%;
+
 }
 
 * :after, :before {
@@ -27,13 +28,8 @@ body {
     outline: 0;
     padding: 0;
 }
-div {
-    display: block;
-}
-
 
 h1 {
-    display: block;
     font-size: 3vw 3vh;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
@@ -86,7 +82,8 @@ a {
 
 
 header {
-    display: block;
+    background: linear-gradient(to right, transparent, var(--peach-beige));
+    width: 1000%;   
 }
 
 .menu {
