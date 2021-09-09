@@ -147,7 +147,6 @@ h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a {
 
 .project2,
 .project3 {
-    display: inline-flex;
     background-image: url("../images/comingsoon.png");
     background-size: contain;
     margin-left: 30px;
@@ -157,6 +156,10 @@ h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a {
     border:outset;
 }
 
+.project1:hover {
+    opacity: 70%;
+
+}
 h2 a {
     font-size: 15px;
     margin-left: 15px;
