@@ -1,5 +1,8 @@
 :root {
-    --highlight-color: 
+    --light-blue : #BEE9E8;
+    --black: #080708;
+    --grey: #7C7A7A;
+    --peach-beige: #FECDAA;
 }
 body {
     display: inline-flex;
@@ -38,6 +41,9 @@ h1 {
     font-weight: bold;
 }
 
+.aboutmetext {
+    margin-right: 67%;
+}
 :-webkit-any(article, aside, nav, section) h1 {
     font-size: 55px;
     margin-block-start: 0.83em;
@@ -45,7 +51,7 @@ h1 {
 }
 
 a {
-    color:saddlebrown;
+    color:var(--black);
     text-decoration: underline;
     -webkit-text-decoration-color: transparent;
     text-decoration-color: transparent;
@@ -63,7 +69,7 @@ a {
     display: inline-flex;
     float: left;
     font-weight: bold;
-    color: grey;
+    color: var(--grey);
     list-style: none;
 }
 
@@ -82,7 +88,7 @@ header {
     letter-spacing: .0625rem;
     text-transform: uppercase;
     font-weight: bold;
-    color: #5e5e5e;
+    color: var(--grey);
     margin-top: 3.640776699%;
     list-style: none;
     margin-right: 10%;
@@ -120,7 +126,7 @@ h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a {
 .aboutmetext a:hover,
 .footerlinks a:hover,
 .project-titles a:hover {
-    color: lightcoral;
+    color: var(--light-blue);
     cursor: pointer;
 }
 
@@ -135,7 +141,7 @@ h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a {
     width: 640px;
     height: 355px;
     border-radius: 10px;
-    border-color: grey;
+    border-color: var(--peach-beige);
     border:outset;
 }
 
@@ -151,6 +157,11 @@ h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a {
     border:outset;
 }
 
+h2 a {
+    font-size: 15px;
+    margin-left: 15px;
+}
+
 /* iphone settings */
 @media only screen and (max-width: 768px) {
     .footermenu, .footerlinks {
@@ -158,8 +169,7 @@ h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a {
        flex-direction: column;
        column-count: 1;
    }
-}
-h2 a {
-    font-size: 15px;
-    margin-left: 15px;
+   .aboutmetext {
+       margin-right: auto;
+   }
 }
