@@ -1,3 +1,6 @@
+:root {
+    --highlight-color: 
+}
 body {
     display: inline-flex;
     flex-wrap: wrap;
@@ -55,11 +58,6 @@ a {
 .name a{
     font-weight: bolder;
 }
-.name, .menu-item {
-    font-weight: bold;
-    letter-spacing: .0625rem;
-    text-transform: uppercase;
-}
 
 .menu-item-link {
     font-weight: bold;
@@ -79,6 +77,9 @@ header {
 }
 
 .menu-item {
+    letter-spacing: .0625rem;
+    text-transform: uppercase;
+    font-weight: bold;
     color: #5e5e5e;
     margin-top: 3.640776699%;
     list-style: none;
@@ -130,16 +131,30 @@ h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a {
     background-image: url("/assets/images/horiseon.jpg");
     background-size: contain;
 from project1 */
-#project1 {
-    display: block;
-    background-image: url("/assets/images/horiseon.jpg");
+#project1,
+#project2,
+#project3  {
+    display: inline-flex;
+    background-image: url("../images/horiseon.jpg");
     background-size: contain;
     margin-left: 30px;
     width: 305px;
     height: 355px;
     border-radius: 10px;
-    border:outset;8
+    border:outset;
 }
+
+#project2,
+#project3 {
+    background-image: url("../images/comingsoon.png");
+    background-size: contain;
+    margin-left: 30px;
+    width: 305px;
+    height: 355px;
+    border-radius: 10px;
+    border:outset;
+}
+
 /* iphone settings */
 @media only screen and (max-width: 768px) {
     .footermenu, .footerlinks {
