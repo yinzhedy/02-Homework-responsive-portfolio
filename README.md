@@ -26,6 +26,9 @@ The following image demonstrates the web application's appearance and functional
 
 ![image](./assets/images/full-screen-deployed-application.png)
 
+The following image demonstrates the web application's appearance and functionality when viewed on 800px width, smaller/mobile, screens.
+![image](./assets/images/mobile-screenshot.png)
+
 ## Credits
 - Jack H. Ault
 - https://github.com/henlowgg
